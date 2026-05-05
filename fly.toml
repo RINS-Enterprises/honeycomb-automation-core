@@ -1,0 +1,24 @@
+app = "honeycomb-automation-core"
+primary_region = "sin"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  N8N_HOST = "0.0.0.0"
+  N8N_PORT = "5678"
+  N8N_PROTOCOL = "https"
+  WEBHOOK_URL = "https://honeycomb-automation-core.fly.dev/"
+  N8N_ALLOW_ENV_ACCESS = "true"
+
+[[services]]
+  internal_port = 5678
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
