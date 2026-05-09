@@ -10,6 +10,9 @@ primary_region = "sin"
   N8N_PROTOCOL = "https"
   WEBHOOK_URL = "https://rins-ai-core.fly.dev/"
   N8N_ALLOW_ENV_ACCESS = "true"
+  N8N_DIAGNOSTICS_ENABLED = "false"
+  N8N_VERSION_NOTIFICATIONS_ENABLED = "false"
+  N8N_TEMPLATES_ENABLED = "false"
 
 [[services]]
   internal_port = 5678
