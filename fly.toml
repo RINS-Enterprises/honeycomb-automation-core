@@ -8,7 +8,7 @@ primary_region = "sin"
   N8N_HOST = "0.0.0.0"
   N8N_PORT = "5678"
   N8N_PROTOCOL = "https"
-  WEBHOOK_URL = "https://honeycomb-automation-core.fly.dev/"
+  WEBHOOK_URL = "https://rins-ai-core.fly.dev/"
   N8N_ALLOW_ENV_ACCESS = "true"
 
 [[services]]
