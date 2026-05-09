@@ -1,1 +1,1 @@
-# honeycomb-automation-core
+rins-ai-core
