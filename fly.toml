@@ -1,4 +1,4 @@
-app = "honeycomb-automation-core"
+app = "rins-ai-core"
 primary_region = "sin"
 
 [build]
